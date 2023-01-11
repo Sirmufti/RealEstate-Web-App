@@ -4,8 +4,8 @@
                     <div class="row">
                         <div class="col-md-8">
                             <ul class="top-contact list-text-white  d-table">
-                                <li><a href="#"><i class="fas fa-phone-alt text-success mr-1"></i>+1 243-765-4321</a></li>
-                                <li><a href="#"><i class="fas fa-envelope text-success mr-1"></i>codeastro@realestatest.com</a></li>
+                                <li><a href="#"><i class="fas fa-phone-alt text-success mr-1"></i>+233 541-421-062</a></li>
+                                <li><a href="#"><i class="fas fa-envelope text-success mr-1"></i>muftinet@realestatest.com</a></li>
                             </ul>
                         </div>
                         <div class="col-md-4">

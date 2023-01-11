@@ -125,16 +125,7 @@ if(isset($_POST['add']))
 </head>
 <body>
 
-<!--	Page Loader
-=============================================================
-<div class="page-loader position-fixed z-index-9999 w-100 bg-white vh-100">
-	<div class="d-flex justify-content-center y-middle position-relative">
-	  <div class="spinner-border" role="status">
-		<span class="sr-only">Loading...</span>
-	  </div>
-	</div>
-</div>
---> 
+
 
 
 <div id="page-wrapper">
@@ -143,25 +134,7 @@ if(isset($_POST['add']))
 		<?php include("include/header.php");?>
         <!--	Header end  -->
         
-        <!--	Banner   --->
-        <!-- <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="page-name float-left text-white text-uppercase mt-1 mb-0"><b>Update Property</b></h2>
-                    </div>
-                    <div class="col-md-6">
-                        <nav aria-label="breadcrumb" class="float-left float-md-right">
-                            <ol class="breadcrumb bg-transparent m-0 p-0">
-                                <li class="breadcrumb-item text-white"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active">Update Property</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-         <!--	Banner   --->
+
 		 
 		 
 		<!--	Submit property   -->
@@ -200,7 +173,7 @@ if(isset($_POST['add']))
 													</div>
 												</div>
 												
-											</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+											</div><!-- # -->
 											<div class="col-xl-6">
 												<div class="form-group row">
 													<label class="col-lg-3 col-form-label">Property Type</label>
@@ -240,7 +213,7 @@ if(isset($_POST['add']))
 												</div>
 												
 											</div>   
-											<div class="col-xl-6"><!-- FOR MORE PROJECTS visit: codeastro.com -->
+											<div class="col-xl-6"><!-- # -->
 												<div class="form-group row mb-3">
 													<label class="col-lg-3 col-form-label">BHK</label>
 													<div class="col-lg-9">
@@ -312,7 +285,7 @@ if(isset($_POST['add']))
 														<input type="text" class="form-control" name="state" required value="<?php echo $row['16']; ?>">
 													</div>
 												</div>
-											</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+											</div><!-- # -->
 											<div class="col-xl-6">
 												<div class="form-group row">
 													<label class="col-lg-3 col-form-label">Total Floor</label>
@@ -367,7 +340,7 @@ if(isset($_POST['add']))
 										</div>
 												
 										<h5 class="text-secondary">Image & Status</h5><hr>
-										<div class="row"><!-- FOR MORE PROJECTS visit: codeastro.com -->
+										<div class="row"><!-- # -->
 											<div class="col-xl-6">
 												
 												<div class="form-group row">
@@ -424,7 +397,7 @@ if(isset($_POST['add']))
 														<input class="form-control" name="aimage3" type="file" required="">
 														<img src="admin/property/<?php echo $row['21'];?>" alt="pimage" height="150" width="180">
 													</div>
-												</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+												</div><!-- # -->
 												
 												<div class="form-group row">
 													<label class="col-lg-3 col-form-label">Floor Plan Image</label>
@@ -457,7 +430,7 @@ if(isset($_POST['add']))
         </div>
 	<!--	Submit property   -->
         
-        <!-- FOR MORE PROJECTS visit: codeastro.com -->
+        <!-- # -->
         <!--	Footer   start-->
 		<?php include("include/footer.php");?>
 		<!--	Footer   start-->
@@ -468,7 +441,7 @@ if(isset($_POST['add']))
     </div>
 </div>
 <!-- Wrapper End --> 
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+<!-- # -->
 <!--	Js Link
 ============================================================--> 
 <script src="js/jquery.min.js"></script> 
